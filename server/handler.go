@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/isamert/go-json"
-	"github.com/isamert/go-zetasqlite"
+	"github.com/goccy/go-json"
+	"github.com/goccy/go-zetasqlite"
 	"go.uber.org/zap"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/iterator"

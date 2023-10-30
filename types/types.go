@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/isamert/go-json"
-	"github.com/isamert/go-zetasql/types"
+	"github.com/goccy/go-json"
+	"github.com/goccy/go-zetasql/types"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 )
 

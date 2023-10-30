@@ -6,7 +6,7 @@ import (
 
 	"github.com/apache/arrow/go/v10/arrow/array"
 	"github.com/isamert/bigquery-emulator/types"
-	"github.com/isamert/go-zetasqlite"
+	"github.com/goccy/go-zetasqlite"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 )
 

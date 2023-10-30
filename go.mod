@@ -9,10 +9,10 @@ require (
 	github.com/apache/arrow/go/v10 v10.0.1
 	github.com/fsouza/fake-gcs-server v1.43.0
 	github.com/go-playground/validator/v10 v10.11.0
-	github.com/isamert/go-json v0.10.0
-	github.com/isamert/go-yaml v1.9.5
-	github.com/isamert/go-zetasql v0.5.1
-	github.com/isamert/go-zetasqlite v0.17.2
+	github.com/goccy/go-json v0.10.0
+	github.com/goccy/go-yaml v1.9.5
+	github.com/goccy/go-zetasql v0.5.1
+	github.com/goccy/go-zetasqlite v0.17.2
 	github.com/google/go-cmp v0.5.9
 	github.com/googleapis/gax-go/v2 v2.7.1
 	github.com/gorilla/mux v1.8.0

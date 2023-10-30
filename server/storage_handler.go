@@ -13,7 +13,7 @@ import (
 	"github.com/apache/arrow/go/v10/arrow/array"
 	"github.com/apache/arrow/go/v10/arrow/ipc"
 	"github.com/apache/arrow/go/v10/arrow/memory"
-	"github.com/isamert/go-json"
+	"github.com/goccy/go-json"
 	goavro "github.com/linkedin/goavro/v2"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 	storagepb "google.golang.org/genproto/googleapis/cloud/bigquery/storage/v1"

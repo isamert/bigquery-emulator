@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/isamert/go-json"
-	"github.com/isamert/go-zetasqlite"
+	"github.com/goccy/go-json"
+	"github.com/goccy/go-zetasqlite"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 
 	internaltypes "github.com/isamert/bigquery-emulator/internal/types"

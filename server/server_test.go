@@ -20,7 +20,7 @@ import (
 	"github.com/fsouza/fake-gcs-server/fakestorage"
 	"github.com/isamert/bigquery-emulator/server"
 	"github.com/isamert/bigquery-emulator/types"
-	"github.com/isamert/go-json"
+	"github.com/goccy/go-json"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"

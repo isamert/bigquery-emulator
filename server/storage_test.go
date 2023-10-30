@@ -21,7 +21,7 @@ import (
 	"github.com/apache/arrow/go/v10/arrow/ipc"
 	"github.com/apache/arrow/go/v10/arrow/memory"
 	"github.com/isamert/bigquery-emulator/server"
-	"github.com/isamert/go-json"
+	"github.com/goccy/go-json"
 	gax "github.com/googleapis/gax-go/v2"
 	goavro "github.com/linkedin/goavro/v2"
 	"google.golang.org/api/iterator"

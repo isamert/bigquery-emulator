@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/isamert/go-zetasqlite"
+	"github.com/goccy/go-zetasqlite"
 )
 
 type Manager struct {
