@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/goccy/go-json"
-	"github.com/goccy/go-zetasqlite"
+	"github.com/isamert/go-json"
+	"github.com/isamert/go-zetasqlite"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 
-	internaltypes "github.com/goccy/bigquery-emulator/internal/types"
-	"github.com/goccy/bigquery-emulator/types"
+	internaltypes "github.com/isamert/bigquery-emulator/internal/types"
+	"github.com/isamert/bigquery-emulator/types"
 )
 
 var schemata = []string{

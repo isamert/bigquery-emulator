@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	"github.com/goccy/bigquery-emulator/internal/metadata"
+	"github.com/isamert/bigquery-emulator/internal/metadata"
 )
 
 type (

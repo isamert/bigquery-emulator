@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/goccy/bigquery-emulator/types"
-	"github.com/goccy/go-yaml"
+	"github.com/isamert/bigquery-emulator/types"
+	"github.com/isamert/go-yaml"
 )
 
 type Source func(*Server) error

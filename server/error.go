@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/goccy/go-json"
+	"github.com/isamert/go-json"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 )
 

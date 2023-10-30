@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/goccy/go-json"
-	"github.com/goccy/go-zetasqlite"
+	"github.com/isamert/go-json"
+	"github.com/isamert/go-zetasqlite"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 )
 

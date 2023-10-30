@@ -8,14 +8,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/goccy/go-zetasqlite"
+	"github.com/isamert/go-zetasqlite"
 	"go.uber.org/zap"
 	bigqueryv2 "google.golang.org/api/bigquery/v2"
 
-	"github.com/goccy/bigquery-emulator/internal/connection"
-	"github.com/goccy/bigquery-emulator/internal/logger"
-	internaltypes "github.com/goccy/bigquery-emulator/internal/types"
-	"github.com/goccy/bigquery-emulator/types"
+	"github.com/isamert/bigquery-emulator/internal/connection"
+	"github.com/isamert/bigquery-emulator/internal/logger"
+	internaltypes "github.com/isamert/bigquery-emulator/internal/types"
+	"github.com/isamert/bigquery-emulator/types"
 )
 
 type Repository struct {
